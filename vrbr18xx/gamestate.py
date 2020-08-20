@@ -1,4 +1,4 @@
-from vrbr18xx.company import OpenCompanies
+from vrbr18xx.company import Corporations
 from vrbr18xx.player import Player
 
 
@@ -8,8 +8,8 @@ class GameState(object):
         self.players = {}
         self.initial_cash = initial_cash_for_players
         self.game = game
-        self.open_companies = OpenCompanies()
-        self.round_phase = 'GameState Start'
+        self.corporations = Corporations()
+        self.game_round = 'Start'
 
     def add_player(self, player_name: str):
         player = Player(player_name, self.initial_cash)
@@ -23,10 +23,10 @@ class GameState(object):
         self.players[player_name].sell_shares(company_name, price, quantity)
 
     def par_company(self, company_name: str, price: int):
-        self.open_companies.par(company_name, price)
+        self.corporations.par(company_name, price)
 
     def set_company_price(self, company_name: str, new_price: int):
-        self.open_companies.set_price(company_name, new_price)
+        self.corporations.set_price(company_name, new_price)
 
     def evaluate_player(self, player_name: str) -> int:
         if player_name not in self.players.keys():
@@ -35,7 +35,7 @@ class GameState(object):
         player = self.players[player_name]
         assets_value = player.cash
         for company_name, shares in player.shares.items():
-            assets_value += self.open_companies[company_name] * shares
+            assets_value += self.corporations[company_name] * shares
         return assets_value
 
     def player_receives(self, player_name: str, money:int):
@@ -43,4 +43,11 @@ class GameState(object):
 
     def store_valuation(self):
         for player in self.players.values():
-            player.store_valuation(self.round_phase, self.evaluate_player(player.name))
+            player.store_valuation(self.game_round, self.evaluate_player(player.name))
+
+    def set_stock_round(self, sr: str):
+        self.game_round = 'SR '+sr
+
+    def set_operation_round(self, opr: str):
+        self.game_round = 'OR '+opr
+

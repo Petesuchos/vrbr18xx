@@ -64,10 +64,10 @@ class TestGame(TestCase):
         game.add_player(player_name='John')
         game.add_player(player_name='Paul')
         game.store_valuation()
-        self.assertEqual(100, game.players['John'].valuation['GameState Start'])
-        self.assertEqual(100, game.players['Paul'].valuation['GameState Start'])
+        self.assertEqual(100, game.players['John'].valuation['Start'])
+        self.assertEqual(100, game.players['Paul'].valuation['Start'])
 
-        game.round_phase = 'OR1.1'
+        game.game_round = 'OR1.1'
         game.par_company(company_name='NYC', price=50)
         game.buy_shares(player_name='John', company_name='NYC', price=50, quantity=2)
         game.set_company_price(company_name='NYC', new_price=500)
@@ -82,8 +82,22 @@ class TestGame(TestCase):
         game.players['Nellie'].cash += 50
         self.assertEqual(650, game.players['Nellie'].cash)
 
+    def test_set_stock_round(self):
+        game = GameState()
+        self.assertEqual('Start', game.game_round)
+        game.set_stock_round('1')
+        self.assertEqual('SR 1', game.game_round)
+        game.set_stock_round('2')
+        self.assertEqual('SR 2', game.game_round)
+        game.set_stock_round('99')
+        self.assertEqual('SR 99', game.game_round)
 
-
-
-
-
+    def test_set_operation_round(self):
+        game = GameState()
+        self.assertEqual('Start', game.game_round)
+        game.set_operation_round('1.1')
+        self.assertEqual('OR 1.1', game.game_round)
+        game.set_operation_round('1.2')
+        self.assertEqual('OR 1.2', game.game_round)
+        game.set_operation_round('5.2')
+        self.assertEqual('OR 5.2', game.game_round)
