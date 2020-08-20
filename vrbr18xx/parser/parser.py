@@ -111,7 +111,6 @@ class LineMatcherFabric:
         )
 
 
-
 class InterpreterCoordinator:
 
     def __init__(self, game: str):
