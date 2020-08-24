@@ -1,0 +1,16 @@
+Removing Ohio & Indiana                                         # Should match nothing
+ERIE places a token on E21                                      # Should match nothing
+Rivaben chooses a company                                       # add_player
+ftola chooses a company                                         # add_player
+Petesuchos chooses a company                                    # add_player
+Rivaben buys Michigan Southern for $140                         # private
+Rivaben buys Michigan Central for $40                           # private
+Rivaben buys Lake Shore Line for $40                            # private
+-- Stock Round 1 --                                             # Stock Round
+Burgos pars IC at $100                                          # pars
+Burgos buys a 20% share of IC from the Treasury for $200        # buy shares
+Petesuchos pars B&O at $70                                      # pars
+Petesuchos buys a 20% share of B&O from the Treasury for $140   # buy shares
+-- Operating Round 1.1 (of 2) --                                # Operating Round
+Rivaben collects $15 from Lake Shore Line
+Rivaben receives $30

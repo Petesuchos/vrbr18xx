@@ -1,10 +1,10 @@
 from unittest import TestCase
-from vrbr18xx.parser.parser import Match, LineMatcher, LineMatcherFabric
+from vrbr18xx.parser.parser import Match, SentenceMatcher, SentenceMatcherFabric
 
 
 class TestLineMatcher(TestCase):
     def test_add_player(self):
-        fabric = LineMatcherFabric()
+        fabric = SentenceMatcherFabric()
         add_player_matcher = fabric.add_player_matcher()
 
         line = 'Petesuchos chooses a company'
@@ -17,12 +17,8 @@ class TestLineMatcher(TestCase):
         self.assertEqual('add_player', match.action)
         self.assertEqual('ftola', match.results['player'])
 
-        line = 'Neque porro quisquam est qui dolorem'
-        match = add_player_matcher.match(line)
-        self.assertIsNone(match)
-
     def test_stock_round(self):
-        fabric = LineMatcherFabric()
+        fabric = SentenceMatcherFabric()
         stock_round_matcher = fabric.stock_round_matcher()
 
         line = '-- Stock Round 1 --'
@@ -35,12 +31,8 @@ class TestLineMatcher(TestCase):
         self.assertEqual('stock_round', match.action)
         self.assertEqual('5', match.results['stock_round'])
 
-        line = 'Neque porro quisquam est qui dolorem'
-        match = stock_round_matcher.match(line)
-        self.assertIsNone(match)
-
     def test_operating_round(self):
-        fabric = LineMatcherFabric()
+        fabric = SentenceMatcherFabric()
         operating_round_matcher = fabric.operation_round_matcher()
 
         line = '-- Operating Round 1.2 (of 2) --'
@@ -53,12 +45,8 @@ class TestLineMatcher(TestCase):
         self.assertEqual('operation_round', match.action)
         self.assertEqual('3.1', match.results['operation_round'])
 
-        line = 'Neque porro quisquam est qui dolorem'
-        match = operating_round_matcher.match(line)
-        self.assertIsNone(match)
-
     def test_par(self):
-        fabric = LineMatcherFabric()
+        fabric = SentenceMatcherFabric()
         par_matcher = fabric.par_matcher()
 
         line = 'Burgos pars IC at $100'
@@ -75,12 +63,8 @@ class TestLineMatcher(TestCase):
         self.assertEqual('ERIE', match.results['corporation'])
         self.assertEqual('60', match.results['value'])
 
-        line = 'Neque porro quisquam est qui dolorem'
-        match = par_matcher.match(line)
-        self.assertIsNone(match)
-
     def test_buy_shares(self):
-        fabric = LineMatcherFabric()
+        fabric = SentenceMatcherFabric()
         buy_matcher = fabric.buy_shares_matcher()
 
         line = 'Petesuchos buys a 20% share of NYC from the Treasury for $300'
@@ -90,12 +74,8 @@ class TestLineMatcher(TestCase):
         self.assertEqual('NYC', match.results['corporation'])
         self.assertEqual('300', match.results['value'])
 
-        line = 'Neque porro quisquam est qui dolorem'
-        match = buy_matcher.match(line)
-        self.assertIsNone(match)
-
     def test_sell_shares(self):
-        fabric = LineMatcherFabric()
+        fabric = SentenceMatcherFabric()
         sell_matcher = fabric.sell_shares_matcher()
 
         line = 'Petesuchos sells 1 share NYC and receives $112'
@@ -114,12 +94,8 @@ class TestLineMatcher(TestCase):
         self.assertEqual('B&O', match.results['corporation'])
         self.assertEqual('224', match.results['value'])
 
-        line = 'Neque porro quisquam est qui dolorem'
-        match = sell_matcher.match(line)
-        self.assertIsNone(match)
-
     def test_corporation_price_change(self):
-        fabric = LineMatcherFabric()
+        fabric = SentenceMatcherFabric()
         price_change_matcher = fabric.corporation_price_change_matcher()
 
         line = 'GT\'s share price changes from $137 to $124'
@@ -128,12 +104,8 @@ class TestLineMatcher(TestCase):
         self.assertEqual('GT', match.results['corporation'])
         self.assertEqual('124', match.results['value'])
 
-        line = 'Neque porro quisquam est qui dolorem'
-        match = price_change_matcher.match(line)
-        self.assertIsNone(match)
-
     def test_player_receives(self):
-        fabric = LineMatcherFabric()
+        fabric = SentenceMatcherFabric()
         player_receives_matcher = fabric.player_receives_matcher()
 
         line = 'Burgos receives $190 = $38 x 5 shares'
@@ -146,6 +118,30 @@ class TestLineMatcher(TestCase):
         match = player_receives_matcher.match(line)
         self.assertIsNone(match)
 
-        line = 'Neque porro quisquam est qui dolorem'
-        match = player_receives_matcher.match(line)
-        self.assertIsNone(match)
+    def test_chat(self):
+        fabric = SentenceMatcherFabric()
+        chat_matcher = fabric.chat_matcher()
+
+        line = 'Rivaben: tow no pass tb'
+        match = chat_matcher.match(line)
+        self.assertIsNotNone(match)
+
+    def test_player_buys_private(self):
+        fabric = SentenceMatcherFabric()
+        player_buys_private_matcher = fabric.player_buys_private_matcher()
+        line = 'Petesuchos buys Ohio & Indiana for $40'
+        match = player_buys_private_matcher.match(line)
+        self.assertEqual('player_buys_private_matcher', match.action)
+        self.assertEqual('Petesuchos', match.results['player'])
+        self.assertEqual('Ohio & Indiana', match.results['private'])
+        self.assertEqual('40', match.results['value'])
+
+    def test_player_collects(self):
+        fabric = SentenceMatcherFabric()
+        player_collects = fabric.player_collects_matcher()
+        line = 'Rivaben collects $15 from Lake Shore Line'
+        match = player_collects.match(line)
+        self.assertEqual('player_collects', match.action)
+        self.assertEqual('Rivaben', match.results['player'])
+        self.assertEqual('15', match.results['value'])
+        self.assertEqual('Lake Shore Line', match.results['private'])
