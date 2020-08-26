@@ -1,5 +1,5 @@
 from unittest import TestCase
-from vrbr18xx.company import Corporations
+from vrbr18xx.corporation import Corporations
 
 
 class TestOpenCompanies(TestCase):

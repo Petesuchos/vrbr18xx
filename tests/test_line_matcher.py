@@ -1,5 +1,5 @@
 from unittest import TestCase
-from vrbr18xx.parser.parser import Match, SentenceMatcher, SentenceMatcherFabric
+from vrbr18xx.parser import SentenceMatcherFabric
 
 
 class TestLineMatcher(TestCase):

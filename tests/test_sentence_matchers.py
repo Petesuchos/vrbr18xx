@@ -1,5 +1,5 @@
 from unittest import TestCase
-from vrbr18xx.parser.parser import *
+from vrbr18xx.parser import *
 
 
 class TestMultipleSentences(TestCase):

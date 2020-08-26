@@ -1,4 +1,4 @@
-from vrbr18xx.company import Corporations
+from vrbr18xx.corporation import Corporations
 from vrbr18xx.player import Player
 
 
