@@ -30,3 +30,13 @@ class TestMultipleSentences(TestCase):
                 match = matcher.match(sentence)
                 if match is not None:
                     self.assertEqual(expected_action, match.action)
+
+    def test_multiple_sentences_game_file(self):
+        sentence_matchers = SentenceMatcherFabric().get_all()
+        with open('./data/1846/game03', 'r') as reader:
+            game_info = reader.readlines()
+            for line in game_info:
+                for matcher in sentence_matchers:
+                    match = matcher.match(line)
+                    if match is not None:
+                        print(match)
