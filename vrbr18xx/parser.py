@@ -55,7 +55,7 @@ class SentenceMatcherFabric:
 
     def get_add_player_matcher(self):
         return SentenceMatcher(
-            pattern=self.patterns['player'] + ' chooses a company',
+            pattern=self.patterns['no_corporation'] + self.patterns['player'] + ' chooses a company',
             groups=['player'],
             action='add_player',
             controller=self.controller
@@ -79,7 +79,10 @@ class SentenceMatcherFabric:
 
     def get_par_matcher(self):
         return SentenceMatcher(
-            pattern=self.patterns['player'] + ' pars ' + self.patterns['corporation'] + ' at ' + self.patterns['value'],
+            pattern=self.patterns['no_corporation'] +
+                    self.patterns['player'] +
+                    ' pars ' + self.patterns['corporation'] +
+                    ' at ' + self.patterns['value'],
             groups=['player', 'corporation', 'value'],
             action='par',
             controller=self.controller
@@ -98,7 +101,8 @@ class SentenceMatcherFabric:
 
     def get_sell_shares_matcher(self):
         return SentenceMatcher(
-            pattern=self.patterns['player'] + ' sells ' + self.patterns['number_of_shares'] + ' shares? ' +
+            pattern=self.patterns['no_corporation'] +
+                    self.patterns['player'] + ' sells ' + self.patterns['number_of_shares'] + ' shares? ' +
                     self.patterns['corporation'] + ' and receives ' + self.patterns['value'],
             groups=['player', 'number_of_shares', 'corporation', 'value'],
             action='sell_shares',
@@ -125,7 +129,9 @@ class SentenceMatcherFabric:
 
     def get_player_buys_private_matcher(self):
         return SentenceMatcher(
-            pattern=self.patterns['player'] + ' buys ' + self.patterns['private'] + ' for ' + self.patterns['value'],
+            pattern=self.patterns['no_corporation'] +
+                    self.patterns['player'] + ' buys ' +
+                    self.patterns['private'] + ' for ' + self.patterns['value'],
             groups=['player', 'private', 'value'],
             action='player_buys_private',
             controller=self.controller
@@ -143,7 +149,7 @@ class SentenceMatcherFabric:
 
     def get_chat_matcher(self):
         return SentenceMatcher(
-            pattern=self.patterns['chat'],
+            pattern=self.patterns['no_corporation'] + self.patterns['chat'],
             groups=[],
             action='chat',
             controller=self.controller

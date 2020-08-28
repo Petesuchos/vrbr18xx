@@ -5,7 +5,7 @@ from vrbr18xx.controller import Controller
 class TestController(TestCase):
 
     def test_controller(self):
-        with open('./data/1846/game04') as data_file:
+        with open('./data/1846/game03') as data_file:
             data = data_file.readlines()
         controller = Controller(data)
         controller.run()
