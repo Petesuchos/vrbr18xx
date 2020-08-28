@@ -59,11 +59,24 @@ class TestGame(TestCase):
         game.set_company_price(company_name='IC', new_price=0)
         self.assertEqual(450, game.evaluate_player('Barbara'))
 
-    # def test_evaluate_players(self):
-    #     game = GameState(initial_cash_for_players=500)
-    #     game.add_player(player_name='Ana')
-    #     game.add_player(player_name='Barbara')
-    #     game.evaluate_players()
+    def test_initial_bank_size(self):
+        game = GameState(game='1846', initial_cash_for_players=0)
+        self.assertEqual(0, game.bank)
+        game.add_player('Ana')
+        game.add_player('Bianca')
+        game.add_player('Carla')
+        game.set_stock_round('1')
+        self.assertEqual(6500, game.bank)
+        game.bank = 0
+        game.add_player('Daria')
+        game.set_stock_round('1')
+        self.assertEqual(7500, game.bank)
+        game.bank = 0
+        game.add_player('Ester')
+        game.set_stock_round('1')
+        self.assertEqual(9000, game.bank)
+
+
 
     def test_store_valuation(self):
         game = GameState(initial_cash_for_players=100)

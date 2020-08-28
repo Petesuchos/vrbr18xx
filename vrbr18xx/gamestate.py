@@ -10,6 +10,7 @@ class GameState(object):
         self.game = game
         self.corporations = Corporations()
         self.game_round = 'Start'
+        self.bank = 0
 
     def add_player(self, player_name: str):
         player = Player(player_name, self.initial_cash)
@@ -46,6 +47,15 @@ class GameState(object):
             player.store_valuation(self.game_round, self.evaluate_player(player.name))
 
     def set_stock_round(self, sr: str):
+        if sr == '1' and self.game == '1846':
+            num_players = len(self.players)
+            if num_players == 3:
+                self.bank += 6500
+            elif num_players == 4:
+                self.bank += 7500
+            else:
+                self.bank += 9000
+
         self.game_round = 'SR '+sr
 
     def set_operation_round(self, opr: str):

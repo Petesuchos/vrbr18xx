@@ -12,12 +12,12 @@ class Match:
 
 
 class SentenceMatcher:
-    def __init__(self, pattern: str, groups: list, action: str, coordinator=None):
+    def __init__(self, pattern: str, groups: list, action: str, controller=None):
         self.pattern = pattern
         self.compiled_regex = re.compile(pattern)
         self.groups = groups
         self.action = action
-        self.coordinator = coordinator
+        self.controller = controller
 
     def match(self, sentence: str):
         result = self.compiled_regex.match(sentence)
@@ -25,15 +25,15 @@ class SentenceMatcher:
             match = Match(action=self.action,
                           results={group: result.group(group) for group in self.groups},
                           sentence=sentence)
-            if self.coordinator is not None:
-                self.coordinator.notify(match)
+            if self.controller is not None:
+                self.controller.notify(match)
             return match
         return None
 
 
 class SentenceMatcherFabric:
-    def __init__(self, interpreter_coordinator=None):
-        self.interpreter_coordinator = interpreter_coordinator
+    def __init__(self, controller=None):
+        self.controller = controller
         self.patterns = {
             'player': r'(?P<player>\w+)',
             'stock_round': r'(?P<stock_round>\d+)',
@@ -58,7 +58,7 @@ class SentenceMatcherFabric:
             pattern=self.patterns['player'] + ' chooses a company',
             groups=['player'],
             action='add_player',
-            coordinator=self.interpreter_coordinator
+            controller=self.controller
         )
 
     def get_stock_round_matcher(self):
@@ -66,7 +66,7 @@ class SentenceMatcherFabric:
             pattern=r'-- Stock Round ' + self.patterns['stock_round'],
             groups=['stock_round'],
             action='stock_round',
-            coordinator=self.interpreter_coordinator
+            controller=self.controller
         )
 
     def get_operation_round_matcher(self):
@@ -74,7 +74,7 @@ class SentenceMatcherFabric:
             pattern=r'-- Operating Round ' + self.patterns['operation_round'],
             groups=['operation_round'],
             action='operation_round',
-            coordinator=self.interpreter_coordinator
+            controller=self.controller
         )
 
     def get_par_matcher(self):
@@ -82,7 +82,7 @@ class SentenceMatcherFabric:
             pattern=self.patterns['player'] + ' pars ' + self.patterns['corporation'] + ' at ' + self.patterns['value'],
             groups=['player', 'corporation', 'value'],
             action='par',
-            coordinator=self.interpreter_coordinator
+            controller=self.controller
         )
 
     def get_buy_shares_matcher(self):
@@ -92,7 +92,7 @@ class SentenceMatcherFabric:
                     self.patterns['corporation'] + ' .+ ' + self.patterns['value'],
             groups=['player', 'shares', 'corporation', 'value'],
             action='buy_shares',
-            coordinator=self.interpreter_coordinator
+            controller=self.controller
         )
 
     def get_sell_shares_matcher(self):
@@ -101,7 +101,7 @@ class SentenceMatcherFabric:
                     self.patterns['corporation'] + ' and receives ' + self.patterns['value'],
             groups=['player', 'number_of_shares', 'corporation', 'value'],
             action='sell_shares',
-            coordinator=self.interpreter_coordinator
+            controller=self.controller
         )
 
     def get_corporation_price_change_matcher(self):
@@ -110,7 +110,7 @@ class SentenceMatcherFabric:
                     self.patterns['value'],
             groups=['corporation', 'value'],
             action='corporation_share_price_change',
-            coordinator=self.interpreter_coordinator
+            controller=self.controller
         )
 
     def get_player_receives_matcher(self):
@@ -119,7 +119,7 @@ class SentenceMatcherFabric:
                     self.patterns['player'] + ' receives ' + self.patterns['value'],
             groups=['player', 'value'],
             action='player_receives',
-            coordinator=self.interpreter_coordinator
+            controller=self.controller
         )
 
     def get_player_buys_private_matcher(self):
@@ -127,7 +127,7 @@ class SentenceMatcherFabric:
             pattern=self.patterns['player'] + ' buys ' + self.patterns['private'] + ' for ' + self.patterns['value'],
             groups=['player', 'private', 'value'],
             action='player_buys_private',
-            coordinator=self.interpreter_coordinator
+            controller=self.controller
         )
 
     def get_player_collects_matcher(self):
@@ -137,7 +137,7 @@ class SentenceMatcherFabric:
                     self.patterns['private'],
             groups=['player', 'value', 'private'],
             action='player_collects',
-            coordinator=self.interpreter_coordinator
+            controller=self.controller
         )
 
     def get_chat_matcher(self):
@@ -145,7 +145,7 @@ class SentenceMatcherFabric:
             pattern=self.patterns['chat'],
             groups=[],
             action='chat',
-            coordinator=self.interpreter_coordinator
+            controller=self.controller
         )
 
 
