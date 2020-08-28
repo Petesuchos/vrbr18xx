@@ -59,6 +59,12 @@ class TestGame(TestCase):
         game.set_company_price(company_name='IC', new_price=0)
         self.assertEqual(450, game.evaluate_player('Barbara'))
 
+    # def test_evaluate_players(self):
+    #     game = GameState(initial_cash_for_players=500)
+    #     game.add_player(player_name='Ana')
+    #     game.add_player(player_name='Barbara')
+    #     game.evaluate_players()
+
     def test_store_valuation(self):
         game = GameState(initial_cash_for_players=100)
         game.add_player(player_name='John')

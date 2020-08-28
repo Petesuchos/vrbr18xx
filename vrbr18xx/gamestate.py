@@ -38,7 +38,7 @@ class GameState(object):
             assets_value += self.corporations[company_name] * shares
         return assets_value
 
-    def player_receives(self, player_name: str, money:int):
+    def player_receives(self, player_name: str, money: int):
         self.players[player_name].cash += money
 
     def store_valuation(self):
