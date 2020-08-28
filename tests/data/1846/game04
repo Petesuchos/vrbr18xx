@@ -1,0 +1,847 @@
+1846 is currently considered 'beta', the rules implementation may allow illegal moves.
+As the implementation improves, games that are not compatible with the latest version will be given 7 days to be completed before being deleted.
+Because of this we suggest not playing games that may take months to complete.
+-- Phase 1 (Operating Rounds: 2, Train Limit: 4, Available Tiles: Yellow ) --
+Removing Ohio & Indiana
+Removing Steamboat Company
+Removing C&O
+C&O places a token on I15
+Petesuchos chooses a company
+Burgos chooses a company
+Rivaben chooses a company
+ftola chooses a company
+Petesuchos chooses a company
+Burgos chooses a company
+Rivaben chooses a company
+ftola chooses a company
+Petesuchos chooses a company
+Burgos chooses a company
+Rivaben chooses a company
+Tunnel Blasting Company price decreases from $60 to $50
+Tunnel Blasting Company price decreases from $50 to $40
+Burgos chooses a company
+Petesuchos buys Big 4 for $100
+Petesuchos buys Lake Shore Line for $40
+Petesuchos buys Chicago and Western Indiana for $60
+Burgos buys Michigan Southern for $140
+Burgos chose Pass (4)
+Burgos chose Pass (1)
+Burgos buys Tunnel Blasting Company for $40
+Rivaben buys Meat Packing Company for $60
+Rivaben buys Mail Contract for $80
+Rivaben chose Pass (3)
+ftola buys Michigan Central for $40
+ftola chose Pass (2)
+ftola has priority deal
+-- Stock Round 1 --
+ftola pars GT at $150
+ftola buys a 20% share of GT from the Treasury for $300
+ftola becomes the president of GT
+GT floats
+GT places a token on B16
+Rivaben pars IC at $112
+Rivaben buys a 20% share of IC from the Treasury for $224
+Rivaben becomes the president of IC
+IC floats
+IC places a token on K3
+IC receives a $112 subsidy
+Burgos pars PRR at $70
+Burgos buys a 20% share of PRR from the Treasury for $140
+Burgos becomes the president of PRR
+PRR floats
+PRR places a token on F20
+Burgos: Tentar algo diferente
+Petesuchos pars NYC at $100
+Petesuchos buys a 20% share of NYC from the Treasury for $200
+Petesuchos becomes the president of NYC
+NYC floats
+NYC places a token on D20
+ftola has no valid actions and passes
+Rivaben has no valid actions and passes
+Burgos buys a 10% share of PRR from the Treasury for $70
+Petesuchos has no valid actions and passes
+ftola has no valid actions and passes
+Rivaben has no valid actions and passes
+Burgos passes
+Petesuchos has priority deal
+-- Operating Round 1.1 (of 2) --
+Petesuchos collects $10 from Chicago and Western Indiana
+Burgos collects $20 from Tunnel Blasting Company
+Rivaben collects $15 from Meat Packing Company
+Petesuchos collects $15 from Lake Shore Line
+ftola collects $15 from Michigan Central
+Burgos operates MS
+MS skips issue or redeem shares
+MS spends $20 and lays tile #7 with rotation 4 on C13
+MS spends $20 and lays tile #57 with rotation 2 on D14
+MS runs a 2 train for $60 (D14, C15)
+MS withholds $30
+Burgos receives $30
+MS skips buy companies
+Petesuchos operates BIG4
+BIG4 skips issue or redeem shares
+BIG4 spends $20 and lays tile #6 with rotation 2 on G9
+BIG4 spends $20 and lays tile #8 with rotation 5 on G11
+BIG4 skips run routes
+BIG4 does not run
+BIG4 skips buy companies
+Burgos operates PRR
+PRR issues 3 shares PRR and receives $180
+PRR buys Tunnel Blasting Company from Burgos for $60
+PRR receives a discount of $20 from Tunnel Blasting Company
+PRR spends $40 and lays tile #8 with rotation 5 on E19
+PRR spends $20 and lays tile #293 with rotation 1 on E17
+PRR places a token on E17 (Cleveland) for $80
+PRR skips run routes
+PRR does not run
+PRR's share price changes from $70 to $60
+PRR buys a 2 train for $80 from The Depot
+PRR buys a 2 train for $80 from The Depot
+PRR passes buy companies
+Petesuchos operates NYC
+NYC buys Big 4 from Petesuchos for $40
+NYC receives $0, a 2 train, and a token on G9
+NYC issues 2 shares NYC and receives $180
+NYC spends $20 and lays tile #292 with rotation 0 on H12
+NYC spends $20 and lays tile #8 with rotation 4 on D18
+NYC skips run routes
+NYC does not run
+NYC's share price changes from $100 to $90
+NYC buys a 2 train for $80 from The Depot
+NYC buys a 2 train for $80 from The Depot
+NYC passes buy trains
+NYC passes buy companies
+Rivaben operates IC
+IC issues 2 shares IC and receives $200
+IC lays tile #9 with rotation 0 on J4
+IC spends $20 and lays tile #9 with rotation 1 on I3
+IC places a token on I5 (Centralia) for $40
+IC skips run routes
+IC does not run
+IC's share price changes from $112 to $100
+IC buys a 2 train for $80 from The Depot
+IC buys a 2 train for $80 from The Depot
+-- Phase 2 (Operating Rounds: 2, Train Limit: 4, Available Tiles: Yellow, Green ) --
+IC buys a 3/5 train for $160 from The Depot
+IC passes buy trains
+IC passes buy companies
+ftola operates GT
+GT issues 2 shares GT and receives $274
+GT spends $20 and lays tile #6 with rotation 0 on B16
+GT spends $20 and lays tile #8 with rotation 1 on B14
+GT buys Michigan Central from ftola for $40
+Michigan Central lays tile #9 with rotation 1 on B12
+Michigan Central lays tile #9 with rotation 1 on B10
+GT places a token on D14 (Toledo) for $80
+GT skips run routes
+GT does not run
+GT's share price changes from $150 to $137
+GT buys a 3/5 train for $160 from The Depot
+GT passes buy trains
+GT passes buy companies
+-- Operating Round 1.2 (of 2) --
+Petesuchos collects $10 from Chicago and Western Indiana
+PRR collects $20 from Tunnel Blasting Company
+Rivaben collects $15 from Meat Packing Company
+Petesuchos collects $15 from Lake Shore Line
+GT collects $15 from Michigan Central
+Burgos operates MS
+MS skips issue or redeem shares
+MS spends $20 and lays tile #14 with rotation 2 on D14
+MS spends $20 and lays tile #8 with rotation 2 on E15
+MS runs a 2 train for $70 (D14, C15)
+MS withholds $35
+Burgos receives $35
+MS skips buy companies
+ftola operates GT
+GT passes issue or redeem shares
+GT spends $20 and lays tile #24 with rotation 4 on B10
+GT spends $20 and lays tile #57 with rotation 0 on C9
+GT places a token on C15 (Detroit) for $80
+GT runs a 3/5 train for $120 (E17, D14, C15, B16, B8)
+GT pays out $120 = $12 x 10 shares
+ftola receives $24 = $12 x 2 shares
+GT receives $72 = $12 x 6 shares
+GT buys a 4 train for $180 from The Depot
+GT passes buy trains
+GT passes buy companies
+Rivaben operates IC
+IC passes issue or redeem shares
+IC spends $20 and lays tile #9 with rotation 1 on I7
+IC buys Meat Packing Company from Rivaben for $60
+Meat Packing Company is assigned to IC
+IC buys Mail Contract from Rivaben for $56
+Meat Packing Company is assigned to I1
+IC spends $20 and lays tile #8 with rotation 5 on I9
+IC runs a 2 train for $30 (K3, I5)
+IC runs a 2 train for $90 (I1, I5)
+IC runs a 3/5 train for $80 (J10, I5)
+IC pays out $200 = $20 x 10 shares
+Rivaben receives $40 = $20 x 2 shares
+IC receives $120 = $20 x 6 shares
+IC's share price changes from $100 to $124
+IC passes buy trains
+IC passes buy companies
+Petesuchos operates NYC
+NYC buys Lake Shore Line from Petesuchos for $40
+NYC passes issue or redeem shares
+Lake Shore Line lays tile #294 with rotation 0 on E17
+NYC spends $20 and lays tile #9 with rotation 2 on F8
+NYC places a token on E17 (Cleveland) for $80
+NYC runs a 2 train for $60 (E17, D20)
+NYC runs a 2 train for $80 (E17, D14)
+NYC runs a 2 train for $60 (H12, G9)
+NYC pays out $200 = $20 x 10 shares
+Petesuchos receives $40 = $20 x 2 shares
+NYC receives $120 = $20 x 6 shares
+NYC's share price changes from $90 to $112
+NYC passes buy trains
+NYC buys Chicago and Western Indiana from Petesuchos for $60
+NYC passes buy companies
+Burgos operates PRR
+PRR skips issue or redeem shares
+PRR buys Michigan Southern from Burgos for $50
+PRR receives $45, a 2 train, and a token on C15
+PRR spends $20 and lays tile #27 with rotation 4 on C13
+PRR spends $20 and lays tile #8 with rotation 4 on C11
+PRR runs a 2 train for $80 (E17, D14)
+PRR runs a 2 train for $70 (C15, D14)
+PRR pays out $150 = $15 x 10 shares
+Burgos receives $45 = $15 x 3 shares
+PRR receives $60 = $15 x 4 shares
+PRR's share price changes from $60 to $80
+PRR passes buy trains
+PRR skips buy companies
+-- Stock Round 2 --
+Petesuchos buys a 10% share of NYC from the market for $112
+ftola buys a 10% share of PRR from the Treasury for $80
+Rivaben buys a 10% share of IC from the Treasury for $124
+Burgos buys a 10% share of PRR from the market for $80
+Petesuchos buys a 10% share of NYC from the market for $112
+ftola sells 1 share PRR and receives $80
+ftola buys a 10% share of IC from the Treasury for $124
+Rivaben buys a 10% share of PRR from the market for $80
+Burgos buys a 10% share of PRR from the market for $80
+Petesuchos passes
+ftola sells 1 share IC and receives $124
+ftola buys a 10% share of GT from the Treasury for $137
+Rivaben passes
+Burgos buys a 10% share of PRR from the market for $80
+Petesuchos passes
+ftola passes
+Rivaben passes
+Burgos passes
+GT's share price changes from $137 to $124
+IC's share price changes from $124 to $112
+Petesuchos has priority deal
+-- Operating Round 2.1 (of 2) --
+NYC collects $10 from Chicago and Western Indiana
+PRR collects $20 from Tunnel Blasting Company
+IC collects $15 from Meat Packing Company
+NYC collects $15 from Lake Shore Line
+GT collects $15 from Michigan Central
+ftola operates GT
+GT passes issue or redeem shares
+GT spends $100 and lays tile #294 with rotation 0 on C15
+GT spends $20 and lays tile #9 with rotation 0 on D10
+GT runs a 3/5 train for $130 (C17, C15, B16, B8)
+GT runs a 4 train for $130 (E17, D14, C15)
+GT pays out $260 = $26 x 10 shares
+ftola receives $78 = $26 x 3 shares
+GT receives $130 = $26 x 5 shares
+GT's share price changes from $124 to $150
+GT passes buy trains
+GT skips buy companies
+Petesuchos operates NYC
+NYC issues 2 shares NYC and receives $200
+NYC spends $20 and lays tile #9 with rotation 2 on E7
+NYC places a token on D6 (Chicago)
+NYC spends $20 and lays tile #298 with rotation 0 on D6
+NYC passes place a token or lay track
+NYC runs a 2 train for $60 (E17, D20)
+NYC runs a 2 train for $80 (E17, D14)
+NYC runs a 2 train for $60 (H12, G9)
+NYC pays out $200 = $20 x 10 shares
+Petesuchos receives $80 = $20 x 4 shares
+NYC receives $80 = $20 x 4 shares
+NYC's share price changes from $112 to $124
+NYC buys a 4 train for $180 from The Depot
+NYC skips buy companies
+Rivaben operates IC
+IC passes issue or redeem shares
+IC lays tile #9 with rotation 0 on H6
+IC spends $20 and lays tile #5 with rotation 0 on G7
+IC passes place a token or lay track
+IC runs a 2 train for $30 (K3, I5)
+IC runs a 2 train for $90 (I1, I5)
+IC runs a 3/5 train for $110 (G7, I5, J10)
+IC pays out $230 = $23 x 10 shares
+Rivaben receives $69 = $23 x 3 shares
+IC receives $92 = $23 x 4 shares
+IC's share price changes from $112 to $137
+IC passes buy trains
+IC skips buy companies
+Burgos operates PRR
+PRR passes issue or redeem shares
+PRR spends $20 and lays tile #23 with rotation 3 on D10
+PRR spends $20 and lays tile #9 with rotation 1 on D8
+PRR places a token on D6 (Chicago) for $80
+PRR runs a 2 train for $80 (E17, D14)
+PRR runs a 2 train for $80 (C15, D14)
+PRR runs a 2 train for $90 (C15, C17)
+PRR runs for $250 and pays half
+PRR withholds $120
+PRR pays out $130 = $13 x 10 shares
+Rivaben receives $13 = $13 x 1 shares
+Burgos receives $78 = $13 x 6 shares
+PRR receives $39 = $13 x 3 shares
+PRR's share price changes from $80 to $90
+PRR buys a 4 train for $180 from The Depot
+PRR skips buy companies
+-- Operating Round 2.2 (of 2) --
+NYC collects $10 from Chicago and Western Indiana
+PRR collects $20 from Tunnel Blasting Company
+IC collects $15 from Meat Packing Company
+NYC collects $15 from Lake Shore Line
+GT collects $15 from Michigan Central
+ftola operates GT
+GT passes issue or redeem shares
+GT spends $20 and lays tile #9 with rotation 0 on E9
+GT spends $20 and lays tile #23 with rotation 4 on D8
+GT runs a 3/5 train for $140 (E17, D14, C15, B16, B8)
+GT runs a 4 train for $230 (C5, D6, C15, C17)
+GT pays out $370 = $37 x 10 shares
+ftola receives $111 = $37 x 3 shares
+GT receives $185 = $37 x 5 shares
+GT's share price changes from $150 to $180
+GT passes buy trains
+GT skips buy companies
+Rivaben operates IC
+IC passes issue or redeem shares
+IC lays tile #9 with rotation 1 on G5
+IC spends $20 and lays tile #5 with rotation 3 on G3
+IC passes place a token or lay track
+IC runs a 2 train for $30 (K3, I5)
+IC runs a 2 train for $90 (I1, I5)
+IC runs a 3/5 train for $110 (G7, I5, J10)
+IC pays out $230 = $23 x 10 shares
+Rivaben receives $69 = $23 x 3 shares
+IC receives $92 = $23 x 4 shares
+IC's share price changes from $137 to $150
+-- Phase 3 (Operating Rounds: 2, Train Limit: 3, Available Tiles: Yellow, Green, Brown ) --
+-- Event: Private companies close --
+-- Event: 2 trains are obsolete --
+IC buys a 5 train for $500 from The Depot
+IC passes buy trains
+IC skips buy companies
+Petesuchos operates NYC
+NYC passes issue or redeem shares
+NYC spends $20 and lays tile #297 with rotation 0 on C15
+NYC places a token on C15 (Detroit) for $80
+NYC spends $60 and lays tile #9 with rotation 0 on I11
+NYC runs a 2 train for $60 (D6, G9)
+NYC runs a 2 train for $90 (C15, D14)
+NYC runs a 2 train for $80 (E17, D14)
+NYC runs a 4 train for $280 (C17, C15, D6, C5)
+-- Event: Obsolete trains rust --
+NYC withholds $510
+NYC's share price changes from $124 to $112
+NYC buys a 5 train for $500 from The Depot
+NYC passes buy trains
+NYC skips buy companies
+Burgos operates PRR
+PRR passes issue or redeem shares
+PRR spends $20 and lays tile #299 with rotation 0 on D6
+PRR passes place a token or lay track
+PRR runs a 2 train for $90 (C15, D14)
+PRR runs a 2 train for $80 (C15, B16)
+PRR runs a 2 train for $80 (E17, D14)
+PRR runs a 4 train for $310 (C17, C15, D6, C5)
+-- Event: Obsolete trains rust --
+PRR runs for $560 and pays half
+PRR withholds $280
+PRR pays out $280 = $28 x 10 shares
+Rivaben receives $28 = $28 x 1 shares
+Burgos receives $168 = $28 x 6 shares
+PRR receives $84 = $28 x 3 shares
+PRR's share price changes from $90 to $112
+PRR passes buy trains
+PRR skips buy companies
+-- Stock Round 3 --
+Petesuchos passes
+ftola buys a 10% share of GT from the Treasury for $180
+Rivaben buys a 10% share of IC from the Treasury for $150
+Burgos buys a 10% share of GT from the market for $180
+Petesuchos passes
+ftola passes
+Rivaben sells 1 share PRR and receives $112
+Rivaben buys a 10% share of IC from the Treasury for $150
+Burgos sells 1 share GT and receives $180
+Burgos buys a 10% share of NYC from the market for $112
+Petesuchos passes
+ftola passes
+Rivaben passes
+Burgos buys a 10% share of NYC from the Treasury for $112
+Petesuchos passes
+ftola passes
+Rivaben passes
+Burgos passes
+GT's share price changes from $180 to $165
+IC's share price changes from $150 to $137
+NYC's share price changes from $112 to $100
+PRR's share price changes from $112 to $100
+Petesuchos has priority deal
+-- Operating Round 3.1 (of 2) --
+ftola operates GT
+GT passes issue or redeem shares
+GT spends $20 and lays tile #19 with rotation 5 on F8
+GT spends $20 and lays tile #8 with rotation 4 on F6
+GT runs a 3/5 train for $130 (E17, D14, C15, B16, C9)
+GT runs a 4 train for $310 (C5, D6, C15, C17)
+GT pays out $440 = $44 x 10 shares
+ftola receives $176 = $44 x 4 shares
+GT receives $176 = $44 x 4 shares
+GT's share price changes from $165 to $195
+GT buys a 5 train for $500 from The Depot
+GT skips buy companies
+Rivaben operates IC
+IC issues 2 shares IC and receives $248
+IC spends $20 and lays tile #9 with rotation 0 on F4
+IC lays tile #9 with rotation 0 on E5
+IC places a token on D6 (Chicago) for $80
+IC runs a 2 train for $30 (K3, I5)
+IC runs a 2 train for $110 (I1, I5)
+IC runs a 3/5 train for $100 (G7, I5, J10)
+IC runs a 5 train for $190 (G7, G3, D6, C5)
+-- Event: Obsolete trains rust --
+IC runs for $430 and pays half
+IC withholds $210
+IC pays out $220 = $22 x 10 shares
+Rivaben receives $110 = $22 x 5 shares
+IC's share price changes from $137 to $150
+IC buys a 5 train for $500 from The Depot
+IC skips buy companies
+Petesuchos operates NYC
+NYC buys a 10% share of NYC from the market for $112
+NYC spends $20 and lays tile #46 with rotation 5 on F8
+NYC runs a 4 train for $310 (C17, C15, D6, C5)
+NYC runs a 5 train for $200 (D6, G9, H12, J10)
+NYC pays out $510 = $51 x 10 shares
+Petesuchos receives $204 = $51 x 4 shares
+Burgos receives $102 = $51 x 2 shares
+NYC receives $204 = $51 x 4 shares
+NYC's share price changes from $100 to $124
+NYC passes buy trains
+NYC skips buy companies
+Burgos operates PRR
+PRR buys a 10% share of PRR from the market for $112
+PRR passes place a token or lay track
+PRR runs a 4 train for $310 (C17, C15, D6, C5)
+PRR pays out $310 = $31 x 10 shares
+Burgos receives $186 = $31 x 6 shares
+PRR receives $124 = $31 x 4 shares
+PRR's share price changes from $100 to $124
+PRR passes buy trains
+PRR skips buy companies
+-- Operating Round 3.2 (of 2) --
+ftola operates GT
+GT passes issue or redeem shares
+GT spends $20 and lays tile #297 with rotation 3 on E17
+GT spends $20 and lays tile #9 with rotation 0 on E13
+GT runs a 3/5 train for $100 (C9, B16, C15)
+GT runs a 4 train for $310 (C5, D6, C15, C17)
+GT runs a 5 train for $220 (C15, D14, E17, D20, C21)
+GT pays out $630 = $63 x 10 shares
+ftola receives $252 = $63 x 4 shares
+GT receives $252 = $63 x 4 shares
+GT's share price changes from $195 to $250
+GT skips buy companies
+Rivaben operates IC
+IC passes issue or redeem shares
+IC spends $20 and lays tile #15 with rotation 3 on G3
+IC spends $20 and lays tile #9 with rotation 0 on H2
+IC passes place a token or lay track
+IC runs a 3/5 train for $180 (J10, I5, I1)
+IC runs a 5 train for $240 (I1, G3, D6, C5)
+IC runs a 5 train for $120 (K3, I5, G7, G3)
+IC pays out $540 = $54 x 10 shares
+Rivaben receives $270 = $54 x 5 shares
+IC's share price changes from $150 to $180
+IC skips buy companies
+Petesuchos operates NYC
+NYC issues 4 shares NYC and receives $448
+NYC spends $20 and lays tile #14 with rotation 0 on D20
+NYC passes place a token or lay track
+NYC runs a 4 train for $310 (C17, C15, D6, C5)
+NYC runs a 5 train for $240 (D22, D20, E17, D14, C15)
+NYC runs for $550 and pays half
+NYC withholds $270
+NYC pays out $280 = $28 x 10 shares
+Petesuchos receives $112 = $28 x 4 shares
+Burgos receives $56 = $28 x 2 shares
+NYC's share price changes from $124 to $150
+-- Phase 4 (Operating Rounds: 2, Train Limit: 2, Available Tiles: Yellow, Green, Brown, Gray ) --
+-- Event: IC's Meat Packing Company token removed from I1 --
+-- Event: 3/5, 4 trains are obsolete --
+NYC buys a 7/8 train for $900 from The Depot
+NYC skips buy companies
+Burgos operates PRR
+PRR issues 4 shares PRR and receives $448
+PRR spends $20 and lays tile #290 with rotation 0 on C15
+PRR passes place a token or lay track
+PRR runs a 4 train for $320 (C17, C15, D6, C5)
+-- Event: Obsolete trains rust --
+PRR runs for $320 and pays half
+PRR withholds $160
+PRR pays out $160 = $16 x 10 shares
+Burgos receives $96 = $16 x 6 shares
+PRR's share price changes from $124 to $137
+PRR buys a 7/8 train for $900 from The Depot
+PRR passes buy trains
+PRR skips buy companies
+-- Stock Round 4 --
+Petesuchos buys a 10% share of NYC from the market for $150
+ftola pars B&O at $150
+ftola buys a 20% share of B&O from the Treasury for $300
+ftola becomes the president of B&O
+B&O floats
+B&O places a token on G19
+Burgos: Olha a palhaçada
+Rivaben buys a 10% share of NYC from the market for $150
+Burgos buys a 10% share of NYC from the market for $150
+Petesuchos buys a 10% share of NYC from the market for $150
+ftola passes
+Rivaben buys a 10% share of PRR from the market for $137
+Burgos buys a 10% share of GT from the market for $250
+Petesuchos passes
+ftola sells 1 share GT and receives $250
+GT's share price changes from $250 to $230
+ftola buys a 10% share of B&O from the Treasury for $150
+Rivaben sells 1 share NYC and receives $150
+Rivaben buys a 10% share of IC from the market for $180
+Burgos sells 1 share GT and receives $230
+Burgos buys a 10% share of NYC from the market for $150
+Petesuchos passes
+ftola buys a 10% share of B&O from the Treasury for $150
+Rivaben passes
+Burgos passes
+Petesuchos passes
+ftola passes
+GT's share price changes from $230 to $212
+IC's share price changes from $180 to $165
+NYC's share price changes from $150 to $165
+PRR's share price changes from $137 to $124
+Rivaben has priority deal
+-- Operating Round 4.1 (of 2) --
+ftola operates GT
+GT passes issue or redeem shares
+GT spends $20 and lays tile #9 with rotation 0 on F12
+GT spends $20 and lays tile #25 with rotation 5 on G11
+GT runs a 3/5 train for $140 (J10, H12, D14)
+GT runs a 4 train for $320 (C5, D6, C15, C17)
+GT runs a 5 train for $250 (C15, D14, E17, D20, C21)
+-- Event: Obsolete trains rust --
+GT runs for $710 and pays half
+GT withholds $350
+GT pays out $360 = $36 x 10 shares
+ftola receives $108 = $36 x 3 shares
+GT receives $144 = $36 x 4 shares
+GT's share price changes from $212 to $230
+GT buys a 6 train for $800 from The Depot
+GT skips buy companies
+Rivaben operates IC
+IC skips issue or redeem shares
+IC spends $20 and lays tile #15 with rotation 4 on G7
+IC spends $20 and lays tile #8 with rotation 2 on H8
+IC passes place a token or lay track
+IC runs a 3/5 train for $150 (J10, I5, I1)
+IC runs a 5 train for $210 (I1, G3, D6, C5)
+IC runs a 5 train for $130 (K3, I5, G7, G3)
+-- Event: Obsolete trains rust --
+IC pays out $490 = $49 x 10 shares
+Rivaben receives $294 = $49 x 6 shares
+IC's share price changes from $165 to $195
+IC skips buy companies
+Petesuchos operates NYC
+NYC skips issue or redeem shares
+NYC skips place a token or lay track
+NYC runs a 4 train for $320 (C17, C15, D6, C5)
+NYC runs a 5 train for $120 (D14, C15, B16)
+NYC runs a 7/8 train for $290 (J10, H12, D14, E17, D20, D22)
+-- Event: Obsolete trains rust --
+NYC pays out $730 = $73 x 10 shares
+Burgos receives $292 = $73 x 4 shares
+Petesuchos receives $438 = $73 x 6 shares
+NYC's share price changes from $165 to $212
+NYC skips buy companies
+ftola operates B&O
+B&O issues 3 shares B&O and receives $411
+B&O spends $40 and lays tile #14 with rotation 1 on G19
+B&O spends $80 and lays tile #9 with rotation 2 on F18
+B&O passes place a token or lay track
+B&O skips run routes
+B&O does not run
+B&O's share price changes from $150 to $137
+B&O buys a 6 train for $800 from The Depot
+B&O passes buy trains
+B&O skips buy companies
+Burgos operates PRR
+PRR skips issue or redeem shares
+PRR places a token on D14 (Toledo) for $80
+PRR runs a 7/8 train for $440 (C5, D6, C15, D14, E17, D20, D22)
+PRR pays out $440 = $44 x 10 shares
+Rivaben receives $44 = $44 x 1 shares
+Burgos receives $264 = $44 x 6 shares
+PRR's share price changes from $124 to $150
+PRR passes buy trains
+PRR skips buy companies
+-- Operating Round 4.2 (of 2) --
+ftola operates GT
+GT skips issue or redeem shares
+GT spends $20 and lays tile #43 with rotation 1 on D8
+GT spends $20 and lays tile #8 with rotation 1 on F16
+GT runs a 5 train for $320 (C5, D6, C15, C17)
+GT runs a 6 train for $290 (J10, H12, D14, E17, D20, D22)
+GT pays out $610 = $61 x 10 shares
+ftola receives $183 = $61 x 3 shares
+GT receives $244 = $61 x 4 shares
+GT's share price changes from $230 to $270
+GT skips buy companies
+Petesuchos operates NYC
+NYC skips issue or redeem shares
+NYC skips place a token or lay track
+NYC runs a 5 train for $320 (C17, C15, D6, C5)
+NYC runs a 7/8 train for $200 (J10, H12, G9, D6)
+NYC runs for $520 and pays half
+NYC withholds $260
+NYC pays out $260 = $26 x 10 shares
+Burgos receives $104 = $26 x 4 shares
+Petesuchos receives $156 = $26 x 6 shares
+NYC's share price changes from $212 to $230
+NYC skips buy companies
+Rivaben operates IC
+IC skips issue or redeem shares
+IC spends $20 and lays tile #9 with rotation 1 on H10
+IC spends $20 and lays tile #619 with rotation 4 on G9
+IC places a token on G9 (Indianapolis) for $80
+IC runs a 5 train for $210 (I1, G3, D6, C5)
+IC runs a 5 train for $250 (J10, H12, G9, D6)
+IC runs for $460 and pays half
+IC withholds $230
+IC pays out $230 = $23 x 10 shares
+Rivaben receives $138 = $23 x 6 shares
+IC's share price changes from $195 to $212
+IC skips buy companies
+Burgos operates PRR
+PRR skips issue or redeem shares
+PRR skips place a token or lay track
+PRR runs a 7/8 train for $440 (C5, D6, C15, D14, E17, D20, D22)
+PRR runs for $440 and pays half
+PRR withholds $220
+PRR pays out $220 = $22 x 10 shares
+Rivaben receives $22 = $22 x 1 shares
+Burgos receives $132 = $22 x 6 shares
+PRR's share price changes from $150 to $165
+PRR passes buy trains
+PRR skips buy companies
+ftola operates B&O
+B&O passes issue or redeem shares
+B&O spends $20 and lays tile #9 with rotation 1 on F14
+B&O spends $20 and lays tile #23 with rotation 0 on F12
+B&O places a token on H12 (Cincinnati) for $40
+B&O runs a 6 train for $240 (J10, H12, E17, G19, H20)
+B&O pays out $240 = $24 x 10 shares
+ftola receives $96 = $24 x 4 shares
+B&O receives $72 = $24 x 3 shares
+B&O's share price changes from $137 to $150
+B&O passes buy trains
+B&O skips buy companies
+-- Stock Round 5 --
+Rivaben buys a 10% share of GT from the market for $270
+Burgos buys a 10% share of GT from the Treasury for $270
+Petesuchos pars ERIE at $150
+Petesuchos buys a 20% share of ERIE from the Treasury for $300
+Petesuchos becomes the president of ERIE
+ERIE floats
+ERIE places a token on E21
+ftola buys a 10% share of GT from the market for $270
+Rivaben buys a 10% share of B&O from the market for $150
+Burgos sells 4 shares NYC and receives $920
+Burgos buys a 10% share of GT from the Treasury for $270
+Petesuchos buys a 10% share of ERIE from the Treasury for $150
+ftola buys a 10% share of PRR from the market for $165
+Rivaben buys a 10% share of ERIE from the Treasury for $150
+Burgos buys a 10% share of GT from the Treasury for $270
+Petesuchos buys a 10% share of ERIE from the Treasury for $150
+ftola passes
+Rivaben passes
+Burgos buys a 10% share of GT from the Treasury for $270
+Petesuchos passes
+ftola sells 1 share PRR and receives $165
+ftola sells 1 share B&O and receives $150
+B&O's share price changes from $150 to $137
+ftola buys a 10% share of GT from the market for $270
+Rivaben passes
+Burgos buys a 10% share of IC from the market for $212
+Petesuchos passes
+ftola passes
+Rivaben passes
+Burgos buys a 10% share of IC from the market for $212
+Petesuchos passes
+ftola passes
+Rivaben passes
+Burgos buys a 10% share of IC from the market for $212
+Petesuchos passes
+ftola passes
+Rivaben sells 1 share GT and receives $270
+Rivaben buys a 10% share of ERIE from the Treasury for $150
+Burgos sells 1 share IC and receives $212
+Burgos buys a 10% share of GT from the market for $270
+Petesuchos passes
+ftola passes
+Rivaben sells 1 share B&O and receives $137
+Rivaben buys a 10% share of ERIE from the Treasury for $150
+Burgos passes
+Petesuchos passes
+ftola passes
+Rivaben sells 1 share IC and receives $212
+IC's share price changes from $212 to $195
+Rivaben buys a 10% share of ERIE from the Treasury for $150
+Burgos passes
+Petesuchos sells 1 share NYC and receives $230
+NYC's share price changes from $230 to $212
+Petesuchos buys a 10% share of ERIE from the Treasury for $150
+ftola passes
+Rivaben buys a 10% share of PRR from the market for $165
+Burgos passes
+Petesuchos buys a 10% share of ERIE from the Treasury for $150
+ftola passes
+Rivaben passes
+Burgos passes
+Petesuchos passes
+GT's share price changes from $270 to $295
+NYC's share price changes from $212 to $195
+IC's share price changes from $195 to $180
+PRR's share price changes from $165 to $150
+ERIE's share price changes from $150 to $165
+B&O's share price changes from $137 to $124
+ftola has priority deal
+-- Operating Round 5.1 (of 2) --
+ftola operates GT
+GT skips issue or redeem shares
+GT spends $20 and lays tile #295 with rotation 0 on H12
+GT passes place a token or lay track
+GT runs a 5 train for $320 (C5, D6, C15, C17)
+GT runs a 6 train for $300 (J10, H12, D14, E17, D20, D22)
+GT pays out $620 = $62 x 10 shares
+ftola receives $310 = $62 x 5 shares
+Burgos receives $310 = $62 x 5 shares
+GT's share price changes from $295 to $345
+GT skips buy companies
+Petesuchos operates NYC
+NYC passes issue or redeem shares
+NYC spends $20 and lays tile #26 with rotation 4 on G5
+NYC spends $20 and lays tile #57 with rotation 0 on G13
+NYC passes place a token or lay track
+NYC runs a 5 train for $290 (I1, I5, G7, C15, C17)
+NYC runs a 7/8 train for $260 (J10, H12, G9, D6, C5)
+NYC pays out $550 = $55 x 10 shares
+Petesuchos receives $275 = $55 x 5 shares
+NYC's share price changes from $195 to $230
+NYC skips buy companies
+Rivaben operates IC
+IC buys a 10% share of IC from the market for $195
+IC spends $20 and lays tile #300 with rotation 0 on D6
+IC runs a 5 train for $230 (I1, G3, D6, C5)
+IC runs a 5 train for $280 (J10, H12, G9, D6)
+IC pays out $510 = $51 x 10 shares
+Rivaben receives $255 = $51 x 5 shares
+Burgos receives $102 = $51 x 2 shares
+IC receives $51 = $51 x 1 shares
+IC's share price changes from $180 to $212
+IC skips buy companies
+Petesuchos operates ERIE
+ERIE skips issue or redeem shares
+ERIE spends $20 and lays tile #611 with rotation 3 on D20
+ERIE places a token on E17 (Cleveland) for $80
+ERIE passes place a token or lay track
+ERIE skips run routes
+ERIE does not run
+ERIE's share price changes from $165 to $150
+ERIE buys a 7/8 train for $900 from The Depot
+ERIE passes buy trains
+ERIE skips buy companies
+Burgos operates PRR
+PRR buys a 10% share of PRR from the market for $165
+PRR spends $20 and lays tile #41 with rotation 0 on D10
+PRR passes place a token or lay track
+PRR runs a 7/8 train for $480 (C5, D6, G7, H12, E17, D14, C15, C17)
+PRR pays out $480 = $48 x 10 shares
+Rivaben receives $96 = $48 x 2 shares
+Burgos receives $288 = $48 x 6 shares
+PRR receives $48 = $48 x 1 shares
+PRR's share price changes from $150 to $180
+PRR passes buy trains
+PRR skips buy companies
+ftola operates B&O
+B&O skips issue or redeem shares
+B&O spends $60 and lays tile #8 with rotation 2 on G17
+B&O spends $20 and lays tile #25 with rotation 1 on F16
+B&O runs a 6 train for $320 (I1, G3, G7, H12, G19, G21)
+B&O pays out $320 = $32 x 10 shares
+ftola receives $96 = $32 x 3 shares
+B&O receives $96 = $32 x 3 shares
+B&O's share price changes from $124 to $150
+B&O buys a 5 train for $1 from GT
+B&O skips buy companies
+-- Operating Round 5.2 (of 2) --
+ftola operates GT
+GT skips issue or redeem shares
+GT spends $60 and lays tile #619 with rotation 4 on B16
+GT passes place a token or lay track
+GT runs a 6 train for $350 (C5, D6, C15, B16, B18)
+GT pays out $350 = $35 x 10 shares
+ftola receives $175 = $35 x 5 shares
+Burgos receives $175 = $35 x 5 shares
+GT's share price changes from $345 to $375
+GT buys a 7/8 train for $900 from The Depot
+GT skips buy companies
+Petesuchos operates NYC
+NYC skips issue or redeem shares
+NYC spends $20 and lays tile #24 with rotation 4 on F14
+NYC passes place a token or lay track
+NYC runs a 5 train for $290 (I1, I5, G7, C15, C17)
+NYC runs a 7/8 train for $450 (D22, D20, E17, G13, H12, G9, D6, C5)
+NYC pays out $740 = $74 x 10 shares
+Petesuchos receives $370 = $74 x 5 shares
+NYC's share price changes from $230 to $295
+NYC skips buy companies
+Rivaben operates IC
+IC passes issue or redeem shares
+IC spends $20 and lays tile #40 with rotation 1 on G11
+IC passes place a token or lay track
+IC runs a 5 train for $270 (J10, H12, G7, G3, D6)
+IC runs a 5 train for $300 (E17, G13, H12, G9, D6)
+IC pays out $570 = $57 x 10 shares
+Rivaben receives $285 = $57 x 5 shares
+Burgos receives $114 = $57 x 2 shares
+IC receives $57 = $57 x 1 shares
+IC's share price changes from $212 to $250
+IC skips buy companies
+Burgos operates PRR
+PRR passes issue or redeem shares
+PRR spends $20 and lays tile #611 with rotation 5 on D14
+PRR spends $20 and lays tile #8 with rotation 4 on D12
+PRR passes place a token or lay track
+PRR runs a 7/8 train for $490 (C5, D6, G7, H12, E17, D14, C15, C17)
+PRR pays out $490 = $49 x 10 shares
+Rivaben receives $98 = $49 x 2 shares
+Burgos receives $294 = $49 x 6 shares
+PRR receives $49 = $49 x 1 shares
+PRR's share price changes from $180 to $212
+PRR passes buy trains
+PRR skips buy companies
+Petesuchos operates ERIE
+ERIE skips issue or redeem shares
+ERIE places a token on D20 (Erie) for $40
+ERIE spends $20 and lays tile #14 with rotation 2 on G13

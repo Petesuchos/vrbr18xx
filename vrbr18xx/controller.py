@@ -62,3 +62,4 @@ class Controller:
         for sentence in self.data:
             for matcher in self.matchers:
                 matcher.match(sentence)
+        self.state.store_valuation()

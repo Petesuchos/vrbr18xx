@@ -87,7 +87,8 @@ class SentenceMatcherFabric:
 
     def get_buy_shares_matcher(self):
         return SentenceMatcher(
-            pattern=self.patterns['player'] + ' buys a ' +
+            pattern=self.patterns['no_corporation'] +
+                    self.patterns['player'] + ' buys a ' +
                     self.patterns['shares'] + ' share of ' +
                     self.patterns['corporation'] + ' .+ ' + self.patterns['value'],
             groups=['player', 'shares', 'corporation', 'value'],
