@@ -155,6 +155,15 @@ class SentenceMatcherFabric:
             controller=self.controller
         )
 
+    def get_corporation_buy_private_from_player_matcher(self):
+        return SentenceMatcher(
+            pattern=self.patterns['corporation'] + ' buys ' + self.patterns['private'] + ' from ' +
+                    self.patterns['player'] + ' for ' + self.patterns['value'],
+            groups=['corporation', 'private', 'player', 'value'],
+            action='corporation_buy_private_from_player',
+            controller=self.controller
+        )
+
 
 class InterpreterCoordinator:
 

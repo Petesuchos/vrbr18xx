@@ -2,7 +2,7 @@ from unittest import TestCase
 from vrbr18xx.parser import SentenceMatcherFabric
 
 
-class TestLineMatcher(TestCase):
+class TestSentenceMatcher(TestCase):
     def test_add_player(self):
         fabric = SentenceMatcherFabric()
         add_player_matcher = fabric.get_add_player_matcher()
@@ -145,3 +145,13 @@ class TestLineMatcher(TestCase):
         self.assertEqual('Rivaben', match.results['player'])
         self.assertEqual('15', match.results['value'])
         self.assertEqual('Lake Shore Line', match.results['private'])
+
+    def test_corporation_buy_private_from_player(self):
+        fabric = SentenceMatcherFabric()
+        corporation_buy_private = fabric.get_corporation_buy_private_from_player_matcher()
+        line = 'NYC buys Big 4 from ftola for $40'
+        match = corporation_buy_private.match(line)
+        self.assertEqual('NYC', match.results['corporation'])
+        self.assertEqual('Big 4', match.results['private'])
+        self.assertEqual('ftola', match.results['player'])
+        self.assertEqual('40', match.results['value'])

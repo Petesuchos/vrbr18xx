@@ -22,7 +22,8 @@ class TestMultipleSentences(TestCase):
             'player_receives': 'Rivaben receives $195 = $39 x 5 shares',
             'player_buys_private': 'ftola buys Big 4 for $100',
             'player_collects': 'Burgos collects $10 from Chicago and Western Indiana',
-            'chat': 'ftola: tou no pass!'
+            'chat': 'ftola: tou no pass!',
+            'corporation_buy_private_from_player': 'B&O buys Steamboat Company from Petesuchos for $40'
         }
 
         for expected_action, sentence in sentences.items():
