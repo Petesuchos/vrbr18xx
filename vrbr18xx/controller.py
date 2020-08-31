@@ -54,6 +54,11 @@ class Controller:
                 match.results['player'],
                 int(match.results['value'])
             )
+        if match.action == 'corporation_buy_private_from_player':
+            self.state.player_receives(
+                match.results['player'],
+                int(match.results['value'])
+            )
 
     def run(self):
         if self.data is None:
@@ -62,4 +67,5 @@ class Controller:
         for sentence in self.data:
             for matcher in self.matchers:
                 matcher.match(sentence)
+        self.state.game_round = 'Game End'
         self.state.store_valuation()
